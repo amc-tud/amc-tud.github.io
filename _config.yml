@@ -1,5 +1,5 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: "https://<your-gitlab-username>.gitlab.io"
+baseurl: ""
 
 # Site settings
 title: Awesome Title
@@ -63,3 +63,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+# Include asset folders in the build
+include:
+  - css
+  - js
+  - img
