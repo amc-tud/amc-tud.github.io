@@ -4,8 +4,9 @@ variables:
   JEKYLL_ENV: production
 
 before_script:
-  - gem install bundler
-  - bundle install
+  - gem install --user-install bundler
+  - export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+  - bundle install --path vendor/bundle
 
 pages:
   script:
