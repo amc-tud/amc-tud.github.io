@@ -1,9 +1,10 @@
-image: ruby:3.1
+image: ruby:3.3
 
 variables:
   JEKYLL_ENV: production
 
 before_script:
+  - gem update --system 3.2.3
   - gem install --user-install bundler -v 2.4.22
   - export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
   - bundle install --path vendor/bundle
