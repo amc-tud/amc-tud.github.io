@@ -1,4 +1,4 @@
-Agency Jekyll theme testing
+Agency Jekyll theme testing runner
 ====================
 
 Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
