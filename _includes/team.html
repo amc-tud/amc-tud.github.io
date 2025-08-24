@@ -56,8 +56,7 @@
                         </ul>
                     </div>
                 </div>
-                {% assign mod_next = forloop.index0 | plus: 1 | modulo: 4 %}
-                {% if mod_next == 0 or forloop.last %}</div>{% endif %}
+                {% if mod == 3 or forloop.last %}</div>{% endif %}
             {% endfor %}
 
             <!-- PhDs Section -->
@@ -86,8 +85,7 @@
                         </ul>
                     </div>
                 </div>
-                {% assign mod_next = forloop.index0 | plus: 1 | modulo: 4 %}
-                {% if mod_next == 0 or forloop.last %}</div>{% endif %}
+                {% if mod == 3 or forloop.last %}</div>{% endif %}
             {% endfor %}
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
