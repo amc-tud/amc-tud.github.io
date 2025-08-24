@@ -4,18 +4,21 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.data.template.color.secondary-dark }};
+    /* color: #{{ site.data.template.color.secondary-dark }}; */
 }
+
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+    /* color: #{{ site.data.template.color.muted }}; */
 }
 
+
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    /* color: #{{ site.data.template.color.primary }}; */
 }
 
 p {
@@ -35,8 +38,9 @@ a.active {
     outline: 0;
 }
 
+
 a {
-    color: #{{ site.data.template.color.primary }};
+    /* color: #{{ site.data.template.color.primary }}; */
 }
 
 a:hover,
