@@ -1,1 +1,10 @@
 
+/*
+	This layout is used by style.css to output all theme CSS in one file.
+	It concatenates Bootstrap and Agency theme CSS for Jekyll to process.
+*/
+/*--- JEKYLL_INCLUDE_BOOTSTRAP ---*/
+{% include css/bootstrap.min.css %}
+/*--- JEKYLL_INCLUDE_AGENCY ---*/
+{% include css/agency.css %}
+

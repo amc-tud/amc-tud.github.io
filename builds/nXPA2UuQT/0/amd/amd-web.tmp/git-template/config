@@ -1,0 +1,14 @@
+[init]
+	defaultBranch = none
+[fetch]
+	recurseSubmodules = false
+[credential]
+	interactive = never
+[gc]
+	autoDetach = false
+[http]
+	extraHeader = X-Gitaly-Correlation-ID: 01K3DZYK7EK0MAJ3HX9J4QWJMB
+[transfer]
+	bundleURI = true
+[http "https://gitlab.hrz.tu-chemnitz.de"]
+	sslCAInfo = /Users/inespontsanc/Documents/amd-web/builds/nXPA2UuQT/0/amd/amd-web.tmp/CI_SERVER_TLS_CA_FILE
