@@ -38,9 +38,8 @@
             </div>
             {% assign postdocs = site.people | where: "role", "Postdoc" %}
             {% for member in postdocs %}
-                {% if forloop.index0 % 4 == 0 %}
-                <div class="row justify-content-center">
-                {% endif %}
+                {% assign mod = forloop.index0 | modulo: 4 %}
+                {% if mod == 0 %}<div class="row justify-content-center">{% endif %}
                 <div class="col-sm-3">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="">
@@ -57,9 +56,8 @@
                         </ul>
                     </div>
                 </div>
-                {% if forloop.index0 % 4 == 3 or forloop.last %}
-                </div>
-                {% endif %}
+                {% assign mod_next = forloop.index0 | plus: 1 | modulo: 4 %}
+                {% if mod_next == 0 or forloop.last %}</div>{% endif %}
             {% endfor %}
 
             <!-- PhDs Section -->
@@ -70,9 +68,8 @@
             </div>
             {% assign phds = site.people | where: "role", "PhD" %}
             {% for member in phds %}
-                {% if forloop.index0 % 4 == 0 %}
-                <div class="row justify-content-center">
-                {% endif %}
+                {% assign mod = forloop.index0 | modulo: 4 %}
+                {% if mod == 0 %}<div class="row justify-content-center">{% endif %}
                 <div class="col-sm-3">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="">
@@ -89,9 +86,8 @@
                         </ul>
                     </div>
                 </div>
-                {% if forloop.index0 % 4 == 3 or forloop.last %}
-                </div>
-                {% endif %}
+                {% assign mod_next = forloop.index0 | plus: 1 | modulo: 4 %}
+                {% if mod_next == 0 or forloop.last %}</div>{% endif %}
             {% endfor %}
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
