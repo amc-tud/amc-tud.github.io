@@ -1,3 +1,13 @@
+.img-oval {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50% / 45%;
+    aspect-ratio: 1/1;
+    display: block;
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
