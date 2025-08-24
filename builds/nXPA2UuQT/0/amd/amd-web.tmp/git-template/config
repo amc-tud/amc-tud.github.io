@@ -7,7 +7,7 @@
 [gc]
 	autoDetach = false
 [http]
-	extraHeader = X-Gitaly-Correlation-ID: 01K3EKPZ7QHQXVZX1E1SNY2Y29
+	extraHeader = X-Gitaly-Correlation-ID: 01K3EKS4BEHN9XSS86MSKTACG0
 [transfer]
 	bundleURI = true
 [http "https://gitlab.hrz.tu-chemnitz.de"]
