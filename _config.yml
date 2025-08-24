@@ -20,7 +20,105 @@ people:
       url: #
     - title: stack-overflow
       url: #
-
+- name: Fabian Kamp
+  pic: fabian
+  role: PhD
+  position: PhD Student
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Fabio Bauer
+  pic: fabio
+  role: PhD
+  position: PhD Student
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Frieda Born
+  pic: frieda
+  role: PhD
+  position: PhD Student
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Ines Pont Sanchis
+  pic: placeholder
+  role: PhD
+  position: PhD Student
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Dilara Zorberk
+  pic: placeholder
+  role: PhD
+  position: PhD Student
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Felix Bröhl
+  pic: placeholder
+  role: Postdoc
+  position: Postdoc
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Or Yizhar
+  pic: placeholder
+  role: Postdoc
+  position: Postdoc
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Ruhi Bhanap
+  pic: placeholder
+  role: Postdoc
+  position: Postdoc
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Jiangang Shan
+  pic: placeholder
+  role: Postdoc
+  position: Postdoc
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
 # - name: Larry Parker
 #   pic: 2
 #   position: Lead Marketer
