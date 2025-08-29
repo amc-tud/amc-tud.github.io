@@ -1,8 +1,8 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: d72660   # pink/purple (main accent)
-  secondary: 7c3aed # purple (secondary accent)
-  secondary-dark: 3b185f # deep purple for dark accents
+  secondary: d72660 # use same accent for a single-color theme
+  secondary-dark: d72660 # use same accent (no separate dark purple)
   muted: 777
 
 # Font Families
