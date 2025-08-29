@@ -97,7 +97,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.secondary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -149,7 +149,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.secondary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
