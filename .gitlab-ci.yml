@@ -1,15 +1,29 @@
 image: ruby:3.2
 
-build-jekyll:
+variables:
+  JEKYLL_ENV: production
 
+before_script:
+  - export LANG="en_US.UTF-8"
+  - export LC_ALL="en_US.UTF-8"
+  - export PATH="$HOME/.rbenv/bin:$PATH"
+  - eval "$(rbenv init -)"
+  - rbenv global 3.2.2
+  - ruby -v
+  - export GEM_HOME="$HOME/.gem"
+  - export PATH="$GEM_HOME/bin:$PATH"
+  - gem install --user-install bundler -v 2.4.22
+  - bundle install
+  - bundle install --path vendor/bundle
+
+pages:
   script:
-    - rbenv global 3.2.2
-    - gem install bundler jekyll
-    - bundle install
     - bundle exec jekyll build -d public
   artifacts:
     paths:
       - public
   only:
     - addsubpage
+
+
    
