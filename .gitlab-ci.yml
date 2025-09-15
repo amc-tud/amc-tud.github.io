@@ -1,28 +1,15 @@
 image: ruby:3.2
 
-stages:
-  - build
-
 build-jekyll:
-  stage: build
+
   script:
-   script:
-  # Install gems in your home directory to avoid permission issues
-  - gem install --user-install bundler jekyll
-
-  # Add the local gem bin directory to PATH so executables are found
-  - export PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$PATH"
-
-  # Install bundle dependencies (will also respect user-install)
-  - bundle install
-
-  # Build the Jekyll site into the 'public' folder
-  - bundle exec jekyll build -d public
-
+    - rbenv global 3.2.2
+    - gem install bundler jekyll
+    - bundle install
+    - bundle exec jekyll build -d public
   artifacts:
     paths:
       - public
-
   only:
     - addsubpage
    
