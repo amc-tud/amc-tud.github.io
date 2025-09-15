@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /team/ruhi
-name:ruhi
+name: ruhi
 ---
 
 # About
