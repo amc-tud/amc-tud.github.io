@@ -23,5 +23,5 @@ pages:
     paths:
       - public
   only:
-    - main
+    - addsubpage
    
