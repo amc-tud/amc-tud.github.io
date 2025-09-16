@@ -1,9 +1,9 @@
 ---
 layout: default
 title: About
-permalink: /team/ruhi
+permalink: /team/ruhi/
 slug: ruhi
-name: ruhi
+name: Ruhi Bhanap
 ---
 
 # About
