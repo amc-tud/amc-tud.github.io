@@ -3,7 +3,7 @@ layout: team_member
 title: "Ruhi Bhanap"
 slug: ruhi
 role: Postdoc
-position: Postdoctoral Research Associate
+position: Postdoc
 pic: ruhi
 ---
 
