@@ -11,7 +11,7 @@
     
     <!-- PI Section -->
     <div class="row">
-      {% assign pi = site.team | where: "role", "PI" | first %}
+      {% assign pi = site.people | where: "role", "PI" | first %}
       {% if pi %}
       <div class="col-sm-12 text-center">
         <div class="team-member" style="max-width:340px;margin:0 auto;">
@@ -71,7 +71,7 @@
         <h3 class="section-subheading text-muted" style="margin-top:40px;">PhDs</h3>
       </div>
     </div>
-    {% assign phds = site.team | where: "role", "PhD" %}
+    {% assign phds = site.people | where: "role", "PhD" %}
     {% for member in phds %}
       {% assign mod = forloop.index0 | modulo: 4 %}
       {% if mod == 0 %}<div class="row text-center">{% endif %}
