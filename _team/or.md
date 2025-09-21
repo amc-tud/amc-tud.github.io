@@ -4,7 +4,7 @@ title: "Or Yizhar"
 slug: or
 role: Postdoc
 position: Postdoc
-pic: Placeholder
+pic: placeholder
 ---
 
 **Research Interests:**  
