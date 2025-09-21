@@ -10,5 +10,5 @@ pic: ruhi
 - Interaction of visual attention and memory systems  
 - Evidence Accumulation Models
 
-** Contact:**  
+**Contact:**  
 Email: ruhi.bhanap@tu-dresden.de
