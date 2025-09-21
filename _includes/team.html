@@ -1,37 +1,40 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">All dorks but good people</h3>
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">All dorks but good people</h3>
+            </div>
+        </div>
+        
+        <!-- PI Section -->
+        <div class="row">
+            {% assign pi = site.people | where: "role", "PI" | first %}
+            {% if pi %}
+            <div class="col-sm-12 text-center">
+                <div class="team-member" style="max-width:340px;margin:0 auto;">
+                    <img src="img/team/{{ pi.pic }}.jpg" class="img-oval" alt="">
+                    <h4>
+                      <a href="{{ pi.url }}">{{ pi.name }}</a>
+                    </h4>
+                    <p class="text-muted">{{ pi.position }}</p>
+                    <ul class="list-inline social-buttons">
+                        {% for network in pi.social %}
+                        <li>
+                            <a href="{{ network.url }}">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
-            <!-- PI Section -->
-            <div class="row">
-                {% assign pi = site.people | where: "role", "PI" | first %}
-                {% if pi %}
-                <div class="col-sm-12 text-center">
-                    <div class="team-member" style="max-width:340px;margin:0 auto;">
-                        <img src="img/team/{{ pi.pic }}.jpg" class="img-oval" alt="">
-                        <h4>{{ pi.name }}</h4>
-                        <p class="text-muted">{{ pi.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in pi.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% endif %}
-            </div>
+            {% endif %}
+        </div>
 
-            <!-- Postdocs Section -->
-            <div class="row">
+        <!-- Postdocs Section -->
+        <div class="row">
             <div class="col-lg-12 text-center">
                 <h3 class="section-subheading text-muted" style="margin-top:40px;">Postdocs</h3>
             </div>
@@ -61,38 +64,41 @@
             {% if mod == 3 or forloop.last %}</div>{% endif %}
         {% endfor %}
 
-            <!-- PhDs Section -->
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-subheading text-muted" style="margin-top:40px;">PhDs</h3>
-                </div>
-            </div>
-            {% assign phds = site.people | where: "role", "PhD" %}
-            {% for member in phds %}
-                {% assign mod = forloop.index0 | modulo: 4 %}
-                {% if mod == 0 %}<div class="row text-center">{% endif %}
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% if mod == 3 or forloop.last %}</div>{% endif %}
-            {% endfor %}
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted"></p>
-                </div>
+        <!-- PhDs Section -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading text-muted" style="margin-top:40px;">PhDs</h3>
             </div>
         </div>
-    </section>
+        {% assign phds = site.people | where: "role", "PhD" %}
+        {% for member in phds %}
+            {% assign mod = forloop.index0 | modulo: 4 %}
+            {% if mod == 0 %}<div class="row text-center">{% endif %}
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="">
+                    <h4>
+                      <a href="{{ member.url }}">{{ member.name }}</a>
+                    </h4>
+                    <p class="text-muted">{{ member.position }}</p>
+                    <ul class="list-inline social-buttons">
+                        {% for network in member.social %}
+                        <li>
+                            <a href="{{ network.url }}">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% if mod == 3 or forloop.last %}</div>{% endif %}
+        {% endfor %}
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted"></p>
+            </div>
+        </div>
+    </div>
+</section>
