@@ -2,12 +2,10 @@
 layout: team_member
 title: "Ruhi Bhanap"
 slug: ruhi
-position: Postdoc
+position: Postdoctoral Research Associate
 pic: ruhi
 ---
 
-
-**Ruhi Bhanap, PhD ** 
 
 **Research Interests:**  
 - Interaction of visual attention and memory systems  
