@@ -70,7 +70,7 @@
                 <h3 class="section-subheading text-muted" style="margin-top:40px;">PhDs</h3>
             </div>
         </div>
-        {% assign phds = site.people | where: "role", "PhD" %}
+        {% assign phds = site.team | where: "role", "PhD" %}
         {% for member in phds %}
             {% assign mod = forloop.index0 | modulo: 4 %}
             {% if mod == 0 %}<div class="row text-center">{% endif %}
