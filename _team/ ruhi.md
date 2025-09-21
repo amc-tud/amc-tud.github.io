@@ -7,7 +7,8 @@ position: Postdoc
 pic: ruhi
 ---
 
-# About
+# About Ruhi Bhanap
+
 Ruhi Bhanap, PhD  
 
 **Research Interests:**  
