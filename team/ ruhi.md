@@ -1,6 +1,5 @@
 ---
 layout: default
-title: About
 permalink: /team/ruhi/
 slug: ruhi
 name: Ruhi Bhanap
