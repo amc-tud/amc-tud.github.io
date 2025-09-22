@@ -16,7 +16,9 @@
       <div class="col-sm-12 text-center">
         <div class="team-member" style="max-width:340px;margin:0 auto;">
           <img src="img/team/{{ pi.pic }}.jpg" class="img-oval" alt="">
-          <h4>{{ pi.name }}</h4>
+          <h4>
+            <a href="{{ member.url }}">{{ member.title }}</a>
+          </h4>
           <p class="text-muted">{{ pi.position }}</p>
           <ul class="list-inline social-buttons">
             {% for network in pi.social %}
