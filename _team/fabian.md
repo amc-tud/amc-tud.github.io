@@ -2,8 +2,8 @@
 layout: team_member
 title: "Fabian Kamp"
 slug: fabian
-role: Phd
-position: Phd
+role: PhD
+position: PhD
 pic: fabian
 ---
 
