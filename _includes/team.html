@@ -11,7 +11,7 @@
     
     <!-- PI Section -->
     <div class="row">
-      {% assign pi = site.team | where: "role", "PI" | first %}
+      {% assign pi = site.team | where: "role", "PI" %}
       {% if pi %}
       <div class="col-sm-12 text-center">
         <div class="team-member" style="max-width:340px;margin:0 auto;">
