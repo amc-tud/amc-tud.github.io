@@ -1,3 +1,4 @@
+---
 layout: team_member
 title: "Bernhard Spitzer"
 slug: bernhard
