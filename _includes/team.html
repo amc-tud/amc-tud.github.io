@@ -69,14 +69,16 @@
         <h3 class="section-subheading text-muted" style="margin-top:40px;">PhDs</h3>
       </div>
     </div>
-    {% assign phds = site.people | where: "role", "PhD" %}
+    {% assign phds = site.team | where: "role", "PhD" | sort: "title" %}
     {% for member in phds %}
       {% assign mod = forloop.index0 | modulo: 4 %}
       {% if mod == 0 %}<div class="row text-center">{% endif %}
       <div class="col-sm-3">
         <div class="team-member">
           <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="">
-          <h4>{{ member.name }}</h4>
+          <h4>
+            <a href="{{ member.url }}">{{ member.title }}</a>
+          </h4>
           <p class="text-muted">{{ member.position }}</p>
           <ul class="list-inline social-buttons">
             {% for network in member.social %}
