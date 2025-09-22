@@ -3,7 +3,7 @@ layout: team_member
 title: "Fabian Kamp"
 slug: fabian
 role: PhD
-position: PhD
+position: PhD Student
 pic: fabian
 ---
 
