@@ -1,0 +1,51 @@
+---
+layout: default
+
+---
+{% include headimage.html %}
+<style>
+.team-profile {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 30px; /* Space between image and text */
+  margin-top: 50px;
+}
+
+.team-profile img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.team-profile .info {
+  max-width: 600px;
+}
+
+.team-profile h2 {
+  color: #2c3e50; /* Change name color */
+  margin-bottom: 10px;
+}
+
+.team-profile h4 {
+  color: #e91e63; /* Change position color */
+  margin-bottom: 5px;
+}
+
+.team-profile .bio {
+  color: #34495e; /* Change bio text color */
+  line-height: 1.6;
+}
+</style>
+
+<div class="container">
+  <div class="team-profile">
+    <img src="/img/team/{{ page.pic }}.jpg" alt="{{ page.title }}">
+    <div class="info">
+      <h2>{{ page.title }}</h2>
+      <h4>{{ page.position }}</h4>
+      <div class="bio">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

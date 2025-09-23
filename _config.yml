@@ -6,6 +6,11 @@ title: AMD
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+collections:
+  team:
+    output: true
+    permalink: /team/:slug/
+
 
 # Team names, titles and social links
 people:
@@ -99,6 +104,7 @@ people:
       url: #
 - name: Ruhi Bhanap
   pic: ruhi
+  slug: ruhi
   role: Postdoc
   position: Postdoc
   social:
