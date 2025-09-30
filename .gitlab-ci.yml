@@ -23,7 +23,7 @@ pages:
     paths:
       - public
   only:
-    - addsubpage
+    - main
 
 
    
