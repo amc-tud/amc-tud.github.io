@@ -9,5 +9,12 @@ pic: bernhard
 
 **Research Interests:**  
 
+- Working Memory 
+- Learning
+- Numerical Cognition
+- Neural ocillations
+- Computational modeling
+
 
 **Contact:**  
+bernhard.spitzer@tu-dresden.de
