@@ -8,6 +8,8 @@ pic: placeholder
 ---
 
 **Research Interests:**  
+- Rhythmicity in Working Memory
+- Uncertainty representation and Metacognition
 
-
-**Contact:** 
+**Contact:**  
+felix.broehl@tu-dresden.de
