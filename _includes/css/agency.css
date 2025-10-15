@@ -63,6 +63,7 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
+    color: #{{ site.data.template.color.primary }};
 }
 
 .img-centered {
