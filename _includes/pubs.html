@@ -24,7 +24,6 @@
                                 <strong>{{ pub.journal }}</strong>
                                 {% if pub.year %}, {{ pub.year }}{% endif %}
                             </p>
-                            <p class="publication-description">{{ pub.description | truncate: 120 }}</p>
                             {% if pub.pdf %}
                             <div class="publication-link">📄 View PDF</div>
                             {% elsif pub.url %}
