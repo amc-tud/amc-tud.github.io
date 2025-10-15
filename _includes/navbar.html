@@ -1,5 +1,9 @@
 <!-- Navigation -->
+{% if page.layout == 'home' %}
 <nav class="navbar navbar-default navbar-fixed-top">
+{% else %}
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+{% endif %}
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
