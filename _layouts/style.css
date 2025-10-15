@@ -4,7 +4,7 @@
 	It concatenates Bootstrap and Agency theme CSS for Jekyll to process.
 */
 /*--- JEKYLL_INCLUDE_BOOTSTRAP ---*/
-{% include css/bootstrap.min.css %}
+{% include css/bootstrap-formatted.css %}
 /*--- JEKYLL_INCLUDE_AGENCY ---*/
 {% include css/agency.css %}
 

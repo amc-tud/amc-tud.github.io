@@ -32,13 +32,7 @@ body {
 }
 
 
-.text-muted {
-    color: var(--color-muted);
-}
-
-.text-primary {
-    color: var(--color-dark);
-}
+/* Agency CSS focuses on custom components, not Bootstrap overrides */
 
 p {
     font-size: 14px;

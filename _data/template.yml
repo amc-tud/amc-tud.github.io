@@ -1,0 +1,47 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  # Core brand colors
+  primary: d72660   # pink/purple (main accent)
+  secondary: d72660 # use same accent for a single-color theme
+  secondary-dark: d72660 # use same accent (no separate dark purple)
+  
+  # Text colors
+  text: 2c363f      # gunmetal - dark text for readability
+  text-primary: 2c363f   # dark text for .text-primary
+  muted: b4bcc2     # medium gray for subdued text (Bootstrap default)
+  
+  # Neutral colors
+  white: ffffff     # pure white
+  black: 000000     # pure black
+  light-gray: f7f7f7 # very light gray
+  dark-gray: 1a242f  # very dark gray
+  
+  # Bootstrap utility colors
+  success: 18bc9c   # teal/green for success states
+  info: 3498db      # blue for info states  
+  warning: f39c12   # orange for warning states
+  danger: e74c3c    # red for danger states
+  
+  # Additional grays
+  gray-light: e6e6e6  # light gray
+  gray-medium: 777    # medium gray
+  gray-dark: 128f76   # darker gray
+
+# /* CSS HEX */
+# --gunmetal: #2c363fff;
+# --blush: #e75a7cff;
+# --ivory: #f2f5eaff;
+# --timberwolf: #d6dbd2ff;
+# --sage: #bbc7a4ff;
+
+# /* CSS HEX */
+# --davys-gray: #595959ff;
+# --battleship-gray: #808f85ff;
+# --celadon: #91c499ff;
+# --linen: #f2e9dcff;
+# --pear: #cfd11aff;
+
+# Font Families
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
