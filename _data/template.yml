@@ -5,6 +5,20 @@ color:
   secondary-dark: d72660 # use same accent (no separate dark purple)
   muted: 777
 
+# /* CSS HEX */
+# --gunmetal: #2c363fff;
+# --blush: #e75a7cff;
+# --ivory: #f2f5eaff;
+# --timberwolf: #d6dbd2ff;
+# --sage: #bbc7a4ff;
+
+# /* CSS HEX */
+# --davys-gray: #595959ff;
+# --battleship-gray: #808f85ff;
+# --celadon: #91c499ff;
+# --linen: #f2e9dcff;
+# --pear: #cfd11aff;
+
 # Font Families
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
