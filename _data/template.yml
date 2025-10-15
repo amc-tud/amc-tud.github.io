@@ -79,6 +79,11 @@ color:
   popover-border: ebebeb   # popover border color
   gradient-start: 80000000 # gradient start (with alpha)
   gradient-end: 80000000   # gradient end (with alpha)
+  
+  # Agency-specific colors
+  light-bg: f1f1f1         # very light background
+  muted-text: bbb          # muted text (lighter than muted)
+  danger-red: e74c3c       # red color for danger elements
 
 # /* CSS HEX */
 # --gunmetal: #2c363fff;
