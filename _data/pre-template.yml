@@ -1,0 +1,121 @@
+# Define named color palette at the top for easy reference
+palette:
+  blush: e75a7c      # pink
+  gunmetal: 2c363f   # dark gray
+  ivory: f2f5ea      # off-white
+  timberwolf: d6dbd2 # light gray
+  sage: bbc7a4       # greenish gray
+  teal: 18bc9c       # teal
+  blue: 3498db       # blue
+  orange: f39c12     # orange
+  red: e74c3c        # red
+  silver: c0c0c0     # silver
+  black: 000000      # black
+  white: ffffff      # white
+  # ...add more as needed
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  # Core brand colors
+  primary: blush   # pink/purple (main accent)
+  secondary: blush # use same accent for a single-color theme
+  secondary-dark: blush # use same accent (no separate dark purple)
+  
+  # Text colors
+  text: gunmetal      # gunmetal - dark text for readability
+  text-primary: gunmetal   # dark text for .text-primary
+  muted: timberwolf     # medium gray for subdued text (Bootstrap default)
+  
+  # Neutral colors
+  white: white     # pure white
+  black: black     # pure black
+  light-gray: timberwolf # very light gray
+  dark-gray: gunmetal  # very dark gray
+  
+  # Bootstrap utility colors
+  success: teal   # teal/green for success states
+  info: blue      # blue for info states  
+  warning: orange # orange for warning states
+  danger: red     # red for danger states
+  
+  # Additional grays and Bootstrap colors
+  gray-light: timberwolf     # light gray
+  gray-medium: sage       # medium gray  
+  gray-dark: gunmetal      # darker gray
+  gray-border: silver    # light gray borders
+  gray-text: sage      # medium gray text
+  gray-code: blush      # code text color
+  
+  # Bootstrap specific colors
+  border-light: timberwolf      # light borders
+  border-medium: sage     # medium borders  
+  border-dark: gunmetal       # dark borders
+  bg-code: ivory        # code background
+  bg-dark: gunmetal        # dark background
+  
+  # Status color variations
+  info-light: blue     # lighter info blue
+  warning-dark: orange   # darker warning orange
+  danger-dark: red    # darker danger red
+  
+  # Special colors
+  mark-bg: yellow           # highlight/mark background
+  silver: silver         # silver color
+  
+  # Remaining Bootstrap colors
+  bg-light: ivory       # light background
+  gray-hover: sage     # hover gray
+  success-dark: teal   # dark success
+  info-dark: blue      # dark info  
+  warning-light: orange  # light warning
+  danger-light: red   # light danger
+  border-form: sage    # form border color
+  placeholder: sage    # input placeholder text
+  help-text: sage      # help text color
+  btn-default: sage    # default button color
+  btn-default-hover: gunmetal  # default button hover
+  btn-default-border: gunmetal # default button border
+  
+  # All remaining hardcoded colors
+  primary-dark: gunmetal     # very dark primary
+  success-darker: teal   # darker success
+  info-darker: blue      # darker info
+  warning-darker: orange   # darker warning
+  danger-darker: red    # darker danger
+  separator: silver        # separator/divider color
+  text-normal: gunmetal      # normal text color (different from muted)
+  navbar-border: teal    # navbar border color
+  pagination-active: teal # active pagination color
+  pagination-disabled: teal # disabled pagination color
+  jumbotron-border: sage # jumbotron border color
+  list-text: gunmetal        # list text color
+  list-active-text: blue # active list text color
+  modal-border: silver     # modal border color
+  popover-bg: ivory       # popover background
+  popover-border: silver   # popover border color
+  gradient-start: gunmetal # gradient start (with alpha)
+  gradient-end: gunmetal   # gradient end (with alpha)
+  
+  # Agency-specific colors
+  light-bg: ivory         # very light background
+  muted-text: sage        # muted text (lighter than muted)
+  danger-red: red       # red color for danger elements
+
+# /* CSS HEX */
+# --gunmetal: #2c363fff;
+# --blush: #e75a7cff;
+# --ivory: #f2f5eaff;
+# --timberwolf: #d6dbd2ff;
+# --sage: #bbc7a4ff;
+
+# /* CSS HEX */
+# --davys-gray: #595959ff;
+# --battleship-gray: #808f85ff;
+# --celadon: #91c499ff;
+# --linen: #f2e9dcff;
+# --pear: #cfd11aff;
+
+# Font Families
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
