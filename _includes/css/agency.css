@@ -42,10 +42,6 @@ body {
     color: var(--color-text);
 }
 
-.text-primary {
-    color: var(--color-primary);
-}
-
 p {
     font-size: 14px;
     line-height: 1.75;
