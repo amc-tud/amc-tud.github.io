@@ -19,12 +19,10 @@
     --color-primary: #d72660;     /* pink/purple - main accent */
     --color-secondary: #d72660;   /* same as primary for single-color theme */
     --color-muted: #777;          /* medium gray for subdued text */
-    --color-text: #2c363f;        /* gunmetal - dark readable text */
     --color-white: #fff;
-    --color-dark: #222;
+    --color-dark: #2c363f;
     --color-light-gray: #f7f7f7;
     --font-primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif';
-    --font-secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif';
 }
 
 body {
@@ -38,10 +36,8 @@ body {
     color: var(--color-muted);
 }
 
-.text-main,
-p.text-main,
-section .text-main {
-    color: var(--color-text);
+.text-dark {
+    color: var(--color-dark);
 }
 
 p {
@@ -312,7 +308,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -335,7 +331,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: var(--font-secondary);
+        font-family: var(--font-primary);
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -364,7 +360,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -443,7 +439,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 16px;
     font-style: italic;
 }
@@ -821,7 +817,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 16px;
     font-style: italic;
 }
