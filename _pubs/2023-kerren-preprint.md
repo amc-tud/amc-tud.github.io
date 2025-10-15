@@ -1,0 +1,9 @@
+---
+title: "Miniature eye movements during visuospatial working memory"
+authors: "Kerrén, C., Linde-Domingo, J., & Spitzer, B."
+journal: "BioRxiv (preprint)"
+year: 2023
+highlighted: false
+url: "https://doi.org/10.1101/2022.06.29.498168"
+pdf: ""
+---
