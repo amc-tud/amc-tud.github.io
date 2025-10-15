@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="page-top" class="index">
+    {% include header.html %}
+
+    <!-- Publications Page -->
+    <section id="publications-page" style="padding: 120px 0 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Publications</h2>
+                    <h3 class="section-subheading text-muted">Complete list of research publications</h3>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="publications-list">
+                        {% assign all_pubs = site.pubs | sort: "year" | reverse %}
+                        {% for pub in all_pubs %}
+                        <div class="publication-reference">
+                            <p class="reference-text">
+                                <strong>{{ pub.authors }}</strong> ({{ pub.year }}). 
+                                {% if pub.url %}
+                                <a href="{{ pub.url }}" target="_blank" class="publication-title-link">{{ pub.title }}</a>.
+                                {% else %}
+                                <em>{{ pub.title }}</em>.
+                                {% endif %}
+                                <span class="journal-name">{{ pub.journal }}</span>.
+                                {% if pub.highlighted %}
+                                <span class="highlight-badge">★ Highlighted</span>
+                                {% endif %}
+                            </p>
+                            {% if pub.description %}
+                            <p class="reference-description">{{ pub.description }}</p>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                    <!-- Back to Home Button -->
+                    <div class="text-center" style="margin-top: 50px;">
+                        <a href="/#publications" class="btn btn-primary btn-lg">Back to Highlights</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    <style>
+    .publications-list {
+        margin-top: 30px;
+    }
+    
+    .publication-reference {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .publication-reference:last-child {
+        border-bottom: none;
+    }
+    
+    .reference-text {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    
+    .reference-description {
+        font-size: 14px;
+        color: #666;
+        font-style: italic;
+        margin-left: 20px;
+        line-height: 1.5;
+    }
+    
+    .publication-title-link {
+        color: {{ site.data.template.color.primary }};
+        text-decoration: none;
+        font-weight: normal;
+    }
+    
+    .publication-title-link:hover {
+        color: {{ site.data.template.color.secondary }};
+        text-decoration: underline;
+    }
+    
+    .journal-name {
+        font-style: italic;
+        font-weight: normal;
+    }
+    
+    .highlight-badge {
+        background-color: {{ site.data.template.color.primary }};
+        color: white;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    
+    .section-heading {
+        color: {{ site.data.template.color.primary }};
+    }
+    </style>
+</body>
+</html>
