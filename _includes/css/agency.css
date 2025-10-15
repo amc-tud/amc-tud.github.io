@@ -38,7 +38,9 @@ body {
     color: var(--color-muted);
 }
 
-.text-main {
+.text-main,
+p.text-main,
+section .text-main {
     color: var(--color-text);
 }
 
