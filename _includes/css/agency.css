@@ -55,7 +55,6 @@ a.active {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -64,6 +63,13 @@ h6 {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #{{ site.data.template.color.primary }};
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #{{ site.data.template.color.text }};
 }
 
 .img-centered {
