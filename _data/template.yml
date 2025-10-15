@@ -4,6 +4,7 @@ color:
   secondary: d72660 # use same accent for a single-color theme
   secondary-dark: d72660 # use same accent (no separate dark purple)
   muted: 777
+  text: 2c363f # gunmetal - dark text for readability
 
 # /* CSS HEX */
 # --gunmetal: #2c363fff;

@@ -23,9 +23,12 @@ body {
 
 
 .text-muted {
-    /* color: #{{ site.data.template.color.muted }}; */
+    color: #{{ site.data.template.color.muted }};
 }
 
+.text-main {
+    color: #{{ site.data.template.color.text }};
+}
 
 .text-primary {
     /* color: #{{ site.data.template.color.primary }}; */
