@@ -1,5 +1,5 @@
 ---
-title: "Neural oscillations track natural but not artificial fast-speech: Evidence against Ghitza's pitch-scaled model of encoding"
+title: "Dynamics of approximate number representations in the intraparietal sulcus"
 authors: "Kang, Z., & Spitzer, B."
 journal: "Scientific Reports"
 year: 2021
