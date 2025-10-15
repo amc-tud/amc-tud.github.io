@@ -1,9 +1,9 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   # Core brand colors
-  primary: d72660   # pink/purple (main accent)
-  secondary: d72660 # use same accent for a single-color theme
-  secondary-dark: d72660 # use same accent (no separate dark purple)
+  primary: 6f7c12 #d72660   # pink/purple (main accent)
+  secondary: 6f7c12 #d72660 # use same accent for a single-color theme
+  secondary-dark: 6f7c12 #d72660 # use same accent (no separate dark purple)
   
   # Text colors
   text: 2c363f      # gunmetal - dark text for readability
