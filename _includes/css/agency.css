@@ -38,8 +38,9 @@ body {
     color: var(--color-muted);
 }
 
-.text-main {
-    color: var(--color-text);
+section .text-main,
+p.text-main {
+    color: var(--color-text) !important;
 }
 
 p {
