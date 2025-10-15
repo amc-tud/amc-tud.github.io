@@ -24,11 +24,6 @@
                                 <strong>{{ pub.journal }}</strong>
                                 {% if pub.year %}, {{ pub.year }}{% endif %}
                             </p>
-                            {% if pub.pdf %}
-                            <div class="publication-link">📄 View PDF</div>
-                            {% elsif pub.url %}
-                            <a href="{{ pub.url }}" class="publication-link external-link" target="_blank" onclick="event.stopPropagation();">🔗 Read Paper</a>
-                            {% endif %}
                         </div>
                     </div>
                 {% if pub.pdf %}
@@ -115,14 +110,6 @@
     font-size: 14px;
     color: #{{ site.data.template.color.text }};
     margin-bottom: 8px;
-}
-
-.publication-description {
-    font-size: 12px;
-    color: #{{ site.data.template.color.muted }};
-    line-height: 1.4;
-    flex-grow: 1;
-    margin-bottom: 10px;
 }
 
 .publication-link {
