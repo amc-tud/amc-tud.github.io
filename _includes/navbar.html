@@ -9,7 +9,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+            {% if page.layout == 'home' %}
+                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+            {% else %}
+                <a class="navbar-brand" href="/">{{site.title}}</a>
+            {% endif %}
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,16 +23,32 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#research">Research</a>
+                    {% if page.layout == 'home' %}
+                        <a class="page-scroll" href="#research">Research</a>
+                    {% else %}
+                        <a href="/#research">Research</a>
+                    {% endif %}
                 </li>
                 <li>
-                    <a class="page-scroll" href="#publications">Publications</a>
+                    {% if page.layout == 'home' %}
+                        <a class="page-scroll" href="#publications">Publications</a>
+                    {% else %}
+                        <a href="/#publications">Publications</a>
+                    {% endif %}
                 </li>
                 <li>
-                    <a class="page-scroll" href="#team">Team</a>
+                    {% if page.layout == 'home' %}
+                        <a class="page-scroll" href="#team">Team</a>
+                    {% else %}
+                        <a href="/#team">Team</a>
+                    {% endif %}
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Careers/Contact</a>
+                    {% if page.layout == 'home' %}
+                        <a class="page-scroll" href="#contact">Careers/Contact</a>
+                    {% else %}
+                        <a href="/#contact">Careers/Contact</a>
+                    {% endif %}
                 </li>
             </ul>
         </div>
