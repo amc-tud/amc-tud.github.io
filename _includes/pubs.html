@@ -13,20 +13,28 @@
             {% assign highlighted_pubs = site.pubs | where: "highlighted", true | sort: "year" | reverse %}
             {% for pub in highlighted_pubs limit: 8 %}
             <div class="col-lg-3 col-md-4 col-sm-6 publication-item">
-                <div class="publication-card">
-                    <div class="publication-content">
-                        <h4 class="publication-authors">{{ pub.authors }}</h4>
-                        <h5 class="publication-title">{{ pub.title }}</h5>
-                        <p class="publication-journal">
-                            <strong>{{ pub.journal }}</strong>
-                            {% if pub.year %}, {{ pub.year }}{% endif %}
-                        </p>
-                        <p class="publication-description">{{ pub.description | truncate: 120 }}</p>
-                        {% if pub.url %}
-                        <a href="{{ pub.url }}" class="publication-link" target="_blank">Read Paper</a>
-                        {% endif %}
+                {% if pub.pdf %}
+                <a href="/_pubs_pdfs/{{ pub.pdf }}" target="_blank" class="publication-card-link">
+                {% endif %}
+                    <div class="publication-card{% if pub.pdf %} clickable{% endif %}">
+                        <div class="publication-content">
+                            <h4 class="publication-authors">{{ pub.authors }}</h4>
+                            <h5 class="publication-title">{{ pub.title }}</h5>
+                            <p class="publication-journal">
+                                <strong>{{ pub.journal }}</strong>
+                                {% if pub.year %}, {{ pub.year }}{% endif %}
+                            </p>
+                            <p class="publication-description">{{ pub.description | truncate: 120 }}</p>
+                            {% if pub.pdf %}
+                            <div class="publication-link">📄 View PDF</div>
+                            {% elsif pub.url %}
+                            <a href="{{ pub.url }}" class="publication-link external-link" target="_blank" onclick="event.stopPropagation();">🔗 Read Paper</a>
+                            {% endif %}
+                        </div>
                     </div>
-                </div>
+                {% if pub.pdf %}
+                </a>
+                {% endif %}
             </div>
             {% endfor %}
             
@@ -62,8 +70,23 @@
 }
 
 .publication-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.05);
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.publication-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.publication-card-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.publication-card.clickable {
+    cursor: pointer;
 }
 
 .publication-content {
