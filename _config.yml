@@ -10,6 +10,8 @@ collections:
   team:
     output: true
     permalink: /team/:slug/
+  pubs:
+    output: false
 
 
 # Team names, titles and social links

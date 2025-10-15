@@ -17,6 +17,7 @@
             <div class="row" style="margin-top: 50px;">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="publications-list">
+                        {% if site.pubs and site.pubs.size > 0 %}
                         {% assign all_pubs = site.pubs | sort: "year" | reverse %}
                         {% for pub in all_pubs %}
                         <div class="publication-reference">
@@ -37,6 +38,11 @@
                             {% endif %}
                         </div>
                         {% endfor %}
+                        {% else %}
+                        <div class="text-center" style="margin-top: 50px;">
+                            <p class="text-muted">No publications found. Please check back later.</p>
+                        </div>
+                        {% endif %}
                     </div>
                     
                     <!-- Back to Home Button -->
