@@ -677,9 +677,7 @@ aside.clients img {
 
 section#contact {
     background-color: #{{ site.data.template.color.dark-gray }};
-    background-image: url('../img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: none;
 }
 
 section#contact .section-heading {
