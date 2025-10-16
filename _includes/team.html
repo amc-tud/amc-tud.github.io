@@ -41,7 +41,7 @@
     {% assign postdocs = site.team | where: "role", "Postdoc" | sort: "title" %}
     {% for member in postdocs %}
       {% assign mod = forloop.index0 | modulo: 5 %}
-      {% if mod == 0 %}<div class="row text-center postdocs-row">{% endif %}
+      {% if mod == 0 %}<div class="row text-center postdocs-row flex-center">{% endif %}
       <div class="col-sm-5ths">
         <div class="team-member">
           <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="">
@@ -85,7 +85,7 @@
     {% assign phds = site.team | where: "role", "PhD" | sort: "title" %}
     {% for member in phds %}
       {% assign mod = forloop.index0 | modulo: 5 %}
-      {% if mod == 0 %}<div class="row text-center phds-row">{% endif %}
+      {% if mod == 0 %}<div class="row text-center phds-row flex-center">{% endif %}
       <div class="col-sm-5ths">
         <div class="team-member">
           <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="">
