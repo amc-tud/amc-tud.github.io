@@ -8,9 +8,9 @@ color:
   # Muted green : 6f7c12
 
   # Core brand colors
-  primary: f9e900 #d72660   # pink/purple (main accent)
-  secondary: f9e900 #d72660 # use same accent for a single-color theme
-  secondary-dark: f9e900 #d72660 # use same accent (no separate dark purple)
+  primary: f28f3b #d72660   # pink/purple (main accent)
+  secondary: f28f3b #d72660 # use same accent for a single-color theme
+  secondary-dark: f28f3b #d72660 # use same accent (no separate dark purple)
   
   # Text colors
   text: 2c363f      # gunmetal - dark text for readability
