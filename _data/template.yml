@@ -1,9 +1,16 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
+  # Original pink : d72660
+  # Aureolin : f9e900
+  # Blush d55672
+  # Tangerine : f28f3b
+  # Raspberry rose : f28f3b
+  # Muted green : 6f7c12
+
   # Core brand colors
-  primary: 6f7c12 #d72660   # pink/purple (main accent)
-  secondary: 6f7c12 #d72660 # use same accent for a single-color theme
-  secondary-dark: 6f7c12 #d72660 # use same accent (no separate dark purple)
+  primary: f9e900 #d72660   # pink/purple (main accent)
+  secondary: f9e900 #d72660 # use same accent for a single-color theme
+  secondary-dark: f9e900 #d72660 # use same accent (no separate dark purple)
   
   # Text colors
   text: 2c363f      # gunmetal - dark text for readability
