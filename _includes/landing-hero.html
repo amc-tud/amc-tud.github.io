@@ -3,7 +3,28 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading">Adaptive Memory and Decision Making</div>
-                <a href="#research" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#research" class="page-scroll hero-down-arrow" aria-label="Scroll to research section">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 18L24 30L36 18" stroke="#{{ site.data.template.color.primary }}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
             </div>
         </div>
 </header>
+<style>
+.hero-down-arrow {
+  display: inline-block;
+  margin-top: 32px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  transition: transform 0.2s;
+}
+.hero-down-arrow:hover {
+  transform: translateY(6px) scale(1.1);
+}
+.hero-down-arrow svg {
+  display: block;
+}
+</style>
