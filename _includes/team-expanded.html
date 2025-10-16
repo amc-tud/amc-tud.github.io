@@ -1,7 +1,7 @@
 <!-- Expanded Team Section -->
 <section id="team-expanded" class="bg-light-gray">
   <div class="container">
-    {% assign all_members = site.team | sort: "title" %}
+    {% assign all_members = site.team | sort: "role" %}
     {% for member in all_members %}
     <div class="row team-expanded-row" style="align-items: flex-start; margin-bottom: 40px;">
       <div class="col-sm-2 text-left">
