@@ -1,6 +1,6 @@
 ---
 title: "Beyond the status quo: A role for beta oscillations in endogenous content (re)activation"
-authors: "Spitzer, B., & Haegens, S."
+authors: "Spitzer, B.*, & Haegens, S.*"
 journal: "eNeuro"
 year: 2017
 highlighted: false

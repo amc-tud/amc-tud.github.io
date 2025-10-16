@@ -1,5 +1,5 @@
 ---
-title: "Dynamics of approximate number representations in the intraparietal sulcus"
+title: "Concurrent visual working memory bias in sequential integration of approximate number"
 authors: "Kang, Z., & Spitzer, B."
 journal: "Scientific Reports"
 year: 2021

@@ -1,5 +1,5 @@
 ---
-title: "Perceiving approximate numerical information when exact numerical information is unavailable"
+title: "EEG-representational geometries and psychometric distortions in approximate numerical judgment"
 authors: "Appelhoff, S., Hertwig, R., & Spitzer, B."
 journal: "PLoS Computational Biology"
 year: 2022

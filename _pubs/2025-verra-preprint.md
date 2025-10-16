@@ -1,9 +1,9 @@
 ---
 title: "Increased Generalisation In Trait Anxiety Is Driven By Aversive Value Transfer Not Reduced Perceptual Discrimination"
 authors: "Verra, L., Spitzer, B., Schuck, N. W., & Zika, O."
-journal: "PsyArXiv (preprint)"
+journal: "PsyArXiv (preprint under reveiw)"
 year: 2025
 highlighted: false
-url: "https://doi.org/10.31234/osf.io/yh8f3_v2"
+url: https://osf.io/preprints/psyarxiv/yh8f^3 
 pdf: ""
 ---

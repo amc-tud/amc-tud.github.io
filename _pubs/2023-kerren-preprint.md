@@ -1,5 +1,5 @@
 ---
-title: "Miniature eye movements during visuospatial working memory"
+title: "Prioritization of semantic over visuo-perceptual aspects in multi-item working memory"
 authors: "Kerrén, C., Linde-Domingo, J., & Spitzer, B."
 journal: "BioRxiv (preprint)"
 year: 2023

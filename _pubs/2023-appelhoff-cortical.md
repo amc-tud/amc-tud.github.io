@@ -1,5 +1,5 @@
 ---
-title: "Electrophysiological evidence for the cortical locus of adaptation effects in decisions from experience"
+title: "Control over sampling boosts numerical evidence processing in human decisions from experience"
 authors: "Appelhoff, S., Hertwig, R., & Spitzer, B."
 journal: "Cerebral Cortex"
 year: 2023

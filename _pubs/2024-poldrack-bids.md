@@ -1,9 +1,0 @@
----
-title: "The Brain Imaging Data Structure (BIDS) standard for neuroimaging data"
-authors: "Poldrack, R. A., Markiewicz, C. J., Appelhoff, S., Ashar, Y. K., Auer, T., Baillet, S., Bansal, S., Beltrachini, L., Benar, C. G., Bertazzoli, G., Bhogawar, S., Blair, R. W., Bortoletto, M., Boudreau, M., Brooks, T. L., Calhoun, V. D., Castelli, F. M., Clement, P., Cohen, A. L., Conde-Blanco, E., Cury, C., Oostenveld, R., Dafflon, J., Davison, A., de la Vega, A., Delorme, A., Denissen, S., Devlin, J. T., Draschkow, D., Duff, E. P., DuPre, E., Earl, E., Esteban, O., Flandin, G., Galassi, A., Gallitto, G., Gau, R., Glatard, T., Gorgolewski, K. J., Groen, I. I. A., Guay, S., Gulban, O. F., Halchenko, Y. O., Handwerker, D. A., Hardeman, A., Herholz, P., Hermes, D., Honey, C. J., Innis, R. B., Ioanas, H.-I., Jakubassa-Amundsen, M., Jarecka, D., Kaczmarzyk, J. R., Keenan, B. T., Kiar, G., Kincses, B., Koelewijn, L., Koschutnig, K., Krause, F., Kumar, A., Laird, A. R., Larson, E., Legarreta, J. H., Li, A., Li, X., Love, B. C., Lu, H., Maumet, C., Mazzamuto, G., Meisler, S. L., Mikkelsen, M., Mutsaerts, H., Nichols, T. E., Nilsonne, G., Niso, G., Norgaard, M., Okell, T. W., Oosterhof, N. N., Ozenne, B., Park, B.-Y., Pawlik, M., Pernet, C. R., Pestilli, F., Petr, J., Phillips, C., Poline, J.-B., Pollonini, L., Raamana, P. R., Ritter, P., Robinson, E. C., Rorden, C., Routier, A., Salo, T., Schirner, M., Schoffelen, J.-M., Schultz, A. P., Sitek, K. R., Smith, R. E., Snoek, L., Sortiropoulos, S. N., Sprenger, J., Swann, N. C., Szinte, M., Takerkart, S., Thirion, B., Thomas, A. G., Torabian, S., Varoquaux, G., Voytek, B., Welzel, J., Wilson, M., Yarkoni, T., Gorgolewski, K. J., & Ghosh, S. S."
-journal: "Imaging Neuroscience"
-year: 2024
-highlighted: false
-url: "https://doi.org/10.1162/imag_a_00103"
-pdf: ""
----

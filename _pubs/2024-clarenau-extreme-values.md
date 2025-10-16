@@ -1,5 +1,5 @@
 ---
-title: "Over- and underweighting of extreme values in decisions from experience"
+title: "Over- and underweighting of extreme values in decisions from sequential samples"
 authors: "Clarmann von Clarenau, V., Appelhoff, S., & Spitzer, B."
 journal: "Journal of Experimental Psychology: General"
 year: 2024

@@ -1,5 +1,5 @@
 ---
-title: "Confidence and accuracy of numerical estimation in implicit reward comparison"
+title: "Selective overweighting of larger magnitudes during noisy numerical comparison"
 authors: "Spitzer, B., Waschke, L., & Summerfield, C."
 journal: "Nature Human Behaviour"
 year: 2017
