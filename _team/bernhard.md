@@ -17,4 +17,4 @@ pic: bernhard
 
 
 **Contact:**  
-bernhard.spitzer@tu-dresden.de
+bernhard.spitzer[at]tu-dresden.de

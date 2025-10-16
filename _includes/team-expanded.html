@@ -1,7 +1,10 @@
 <!-- Expanded Team Section -->
 <section id="team-expanded" class="bg-light-gray">
   <div class="container">
-    {% assign all_members = site.team | sort: "role" %}
+    {% assign pi = site.people | where: "role", "PI" %}
+    {% assign postdocs = site.team | where: "role", "Postdoc" | sort: "title" %}
+    {% assign phds = site.team | where: "role", "PhD" | sort: "title" %}
+    {% assign all_members = pi | concat: postdocs | concat: phds %}
     {% for member in all_members %}
     <div class="row team-expanded-row" style="align-items: flex-start; margin-bottom: 40px;">
       <div class="col-sm-2 text-left">

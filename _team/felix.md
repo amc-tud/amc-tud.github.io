@@ -12,4 +12,4 @@ pic: placeholder
 - Uncertainty representation and Metacognition
 
 **Contact:**  
-felix.broehl@tu-dresden.de
+felix.broehl[at]tu-dresden.de

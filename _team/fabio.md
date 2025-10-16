@@ -13,4 +13,4 @@ pic: fabio
 - Aligning Deep Neural Networks to behavioral and neuroimaging benchmarks
 
 **Contact:**  
-fabio.bauer@tu-dresden.de
+fabio.bauer[at]tu-dresden.de

@@ -14,4 +14,4 @@ pic: placeholder
 - Special population : Schizophrenia
 
 **Contact:**  
-ines.pont-sanchis@tu-dresden.de
+ines.pont-sanchis[at]tu-dresden.de

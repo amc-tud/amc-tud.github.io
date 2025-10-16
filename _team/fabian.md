@@ -16,4 +16,4 @@ pic: fabian
 - The ventral stream & hippocampus
 
 **Contact:**  
-fabian.kamp@mailbox.tu-dresden.de
+fabian.kamp[at]mailbox.tu-dresden.de
