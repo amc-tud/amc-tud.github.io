@@ -12,4 +12,4 @@ pic: ruhi
 - Evidence Accumulation Models
 
 **Contact:**  
-Email: ruhi.bhanap[at]tu-dresden.de
+ruhi.bhanap[at]tu-dresden.de
