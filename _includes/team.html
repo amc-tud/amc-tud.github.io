@@ -21,8 +21,8 @@
           <ul class="list-inline social-buttons">
             {% for network in pi.social %}
             <li>
-              <a href="{{ network.url }}">
-                {{ network.title }}
+              <a href="{{ network.url }}" target="_blank" rel="noopener" aria-label="{{ network.title }}">
+                <i class="fa fa-{{ network.title | downcase }}"></i>
               </a>
             </li>
             {% endfor %}
@@ -52,8 +52,8 @@
           <ul class="list-inline social-buttons">
             {% for network in member.social %}
             <li>
-              <a href="{{ network.url }}">
-                {{ network.title }}
+              <a href="{{ network.url }}" target="_blank" rel="noopener" aria-label="{{ network.title }}">
+                <i class="fa fa-{{ network.title | downcase }}"></i>
               </a>
             </li>
             {% endfor %}
@@ -83,8 +83,8 @@
           <ul class="list-inline social-buttons">
             {% for network in member.social %}
             <li>
-              <a href="{{ network.url }}">
-                {{ network.title }}
+              <a href="{{ network.url }}" target="_blank" rel="noopener" aria-label="{{ network.title }}">
+                <i class="fa fa-{{ network.title | downcase }}"></i>
               </a>
             </li>
             {% endfor %}

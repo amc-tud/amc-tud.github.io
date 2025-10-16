@@ -1,6 +1,6 @@
 <!-- Landing Page Hero Header -->
-<header>
-        <div class="container">
+<header class="hero-header">
+        <div class="container hero-container">
             <div class="intro-text">
                 <div class="intro-heading">Adaptive Memory and Decision Making</div>
             </div>
@@ -12,8 +12,24 @@
         </div>
 </header>
 <style>
-header {
+.hero-header {
   position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.intro-text {
+  z-index: 1;
 }
 .hero-down-arrow {
   display: inline-block;
