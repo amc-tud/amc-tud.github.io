@@ -4,7 +4,7 @@ title: "Jiangang Shan"
 slug: jiangang
 role: Postdoc
 position: Postdoc
-pic: placeholder
+pic: jiangang
 ---
 
 **Research Interests:**  

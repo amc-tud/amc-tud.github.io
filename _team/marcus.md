@@ -1,10 +1,10 @@
 ---
 layout: team_member
-title: "Marcus Moeschl"
+title: "Marcus Möschl"
 slug: marcus
 role: Postdoc
 position: Postdoc
-pic: placeholder
+pic: marcus
 ---
 
 **Research Interests:**  

@@ -4,7 +4,7 @@ title: "Felix Bröhl"
 slug: felix
 role: Postdoc
 position: Postdoc
-pic: placeholder
+pic: felix
 ---
 
 **Research Interests:**  

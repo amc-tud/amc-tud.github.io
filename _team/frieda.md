@@ -1,6 +1,6 @@
 ---
 layout: team_member
-title: "Freida Born"
+title: "Frieda Born"
 slug: freida
 role: PhD
 position: PhD Student
