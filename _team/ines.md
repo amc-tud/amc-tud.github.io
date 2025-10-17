@@ -4,7 +4,7 @@ title: "Ines Pont Sanchis"
 slug: ines
 role: PhD
 position: PhD Student
-pic: placeholder
+pic: ines
 ---
 
 **Research Interests:**  
