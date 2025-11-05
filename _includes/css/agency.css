@@ -268,12 +268,17 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default:not(.navbar-shrink) .navbar-header,
+    .navbar-default:not(.navbar-shrink) .navbar-collapse {
+    display: none !important;
+    }
 }
 
 header {
     text-align: center;
     color: #{{ site.data.template.color.white }};
-    /* background-attachment: navbar-brand; */
+    background-attachment: navbar-brand;
     background-image: url('../img/brain.jpeg');
     background-position: center center;
     background-repeat: none;
