@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #{{ site.data.template.color.white }};
-    background-attachment: scroll;
+    background-attachment: navbar-brand;
     background-image: url('../img/brain.jpeg');
     background-position: center center;
     background-repeat: none;
