@@ -14,7 +14,7 @@
             {% for pub in highlighted_pubs limit: 8 %}
             <div class="col-lg-3 col-md-4 col-sm-6 publication-item">
                 {% if pub.pdf %}
-                <a href="/_pubs_pdfs/{{ pub.pdf }}" target="_blank" class="publication-card-link">
+                <a href="/pubs_pdfs/{{ pub.pdf }}" target="_blank" class="publication-card-link">
                 {% endif %}
                     <div class="publication-card{% if pub.pdf %} clickable{% endif %}">
                         <div class="publication-content">
