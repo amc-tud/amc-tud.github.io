@@ -5,5 +5,5 @@ journal: "Communications Psychology (accepted)"
 year: 2025
 highlighted: true
 url: "https://doi.org/10.1101/2024.07.03.601844"
-pdf: ""
+pdf: "2025-graham-transitive.pdf"
 ---
