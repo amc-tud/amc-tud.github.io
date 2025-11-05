@@ -279,7 +279,7 @@ header {
     text-align: center;
     color: #{{ site.data.template.color.white }};
     background-attachment: navbar-brand;
-    background-image: url('../img/amc-logo.jpg');
+    background-image: url('../img/amc-logo-charcoal-pink.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
