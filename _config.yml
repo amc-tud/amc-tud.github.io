@@ -11,7 +11,7 @@ collections:
     output: true
     permalink: /team/:slug/
   pubs:
-    output: true
+    output: false
 
 
 # Team names, titles and social links
