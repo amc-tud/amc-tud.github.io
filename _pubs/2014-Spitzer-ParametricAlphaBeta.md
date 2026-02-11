@@ -4,6 +4,6 @@ authors: "Spitzer, B., Fleck, S., Blankenburg, F."
 journal: "Journal of Neuroscience"
 year: 2014
 highlighted: false
-url: "https://doi.org/10.1523/JNEUROSCI.4580-13.2014"
+url: https://doi.org/10.1523/JNEUROSCI.4580-13.2014
 pdf: ""
 ---
