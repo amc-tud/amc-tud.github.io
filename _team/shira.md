@@ -4,7 +4,7 @@ title: "Shira Baror"
 slug: shira
 role: Guest Postdoc
 position: Guest Postdoc
-pic: 
+pic: placeholder
 ---
 
 **Research Interests:**  
