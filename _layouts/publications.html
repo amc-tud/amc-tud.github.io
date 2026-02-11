@@ -16,7 +16,7 @@ layout: default
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="publications-list">
                         {% if site.pubs and site.pubs.size > 0 %}
-                        {% assign all_pubs = site.pubs.docs | sort: "year" | reverse %}
+                        {% assign all_pubs = site.pubs | sort: "year" | reverse %}
                         {% for pub in all_pubs %}
                         <div class="publication-reference">
                             <p class="reference-text">
