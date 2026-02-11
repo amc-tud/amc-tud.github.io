@@ -4,7 +4,7 @@ title: "Julian Sandbrink"
 slug: julian
 role: MD-PhD Student
 position: MD-PhD Student
-pic: 
+pic: placeholder
 ---
 
 **Research Interests:**  
