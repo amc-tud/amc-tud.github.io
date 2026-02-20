@@ -13,5 +13,5 @@ pic: julian
 - Ethics and policy ⁠of brain-computer interfaces and AI
   
 **Contact:**
-julian.sandbrink@charite.de
-julian.sandbrink@mailbox.tu-dresden.de
+julian.sandbrink@charite.de,
+ julian.sandbrink@mailbox.tu-dresden.de
