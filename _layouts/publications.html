@@ -21,13 +21,15 @@ layout: default
                         <div class="publication-reference">
                             <p class="reference-text">
                                 <strong>{{ pub.authors }}</strong> ({{ pub.year }}). 
-                                {% if pub.url %}
-                                <a href="{{ pub.url | relative_url }}"
-                                   class="publication-title-link"
-                                   {% if pub.url contains "http" %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                                  {{ pub.title }}
-                                </a>
-                                {% endif %}
+                                {% if pub.url and pub.url != "" %}
+                                      <a href="{{ pub.url | relative_url }}"
+                                         class="publication-title-link"
+                                         {% if pub.url contains "http" %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                                        {{ pub.title }}
+                                      </a>
+                                {% else %}
+                                      <em>{{ pub.title }}</em>
+                                {% endif %}                                 
                                 <span class="journal-name">{{ pub.journal }}</span>.
                                 {% if pub.highlighted %}
                                 <span class="highlight-badge">★ Highlighted</span>
