@@ -21,8 +21,8 @@ layout: default
                         <div class="publication-reference">
                             <p class="reference-text">
                                 <strong>{{ pub.authors }}</strong> ({{ pub.year }}). 
-                                {% if pub.url and pub.url != "" %}
-                                  <a href="{{ pub.url }}"
+                                {% if pub.external_url and pub.external_url != "" %}
+                                  <a href="{{ pub.external_url }}"
                                      class="publication-title-link"
                                      target="_blank"
                                      rel="noopener noreferrer">
