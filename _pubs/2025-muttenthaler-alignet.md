@@ -4,6 +4,6 @@ authors: "Muttenthaler, L., Greff, K., Born, F., Spitzer, B., Kornblith, S., Moz
 journal: "Nature"
 year: 2025
 highlighted: false
-url: "https://doi.org/10.1038/s41586-025-09631-6"
+external_url: "https://doi.org/10.1038/s41586-025-09631-6"
 pdf: ""
 ---
