@@ -4,6 +4,6 @@ authors: "Born, F., & Spitzer, B."
 journal: "Communications Psychology"
 year: 2026
 highlighted: true
-external_url: "[https://doi.org/10.1101/2024.10.08.617145](https://doi.org/10.1038/s44271-026-00399-7)"
+external_url: "https://doi.org/10.1038/s44271-026-00399-7"
 pdf: "2025-born-ltm.pdf"
 ---
