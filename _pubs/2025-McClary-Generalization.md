@@ -4,6 +4,6 @@ authors: "McClary T, Ciranka S., Buchberger E.S., Spitzer, B., Lindenberger U., 
 journal: "PsyArXiv (preprint)"
 year: 2025
 highlighted: false
-url: "https://osf.io/preprints/psyarxiv/n5zm9_v1"
+external_url: "https://osf.io/preprints/psyarxiv/n5zm9_v1"
 pdf: ""
 ---
