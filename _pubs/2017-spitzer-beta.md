@@ -4,6 +4,6 @@ authors: "Spitzer, B.*, & Haegens, S.*"
 journal: "eNeuro"
 year: 2017
 highlighted: false
-url: "https://doi.org/10.1523/ENEURO.0170-17.2017"
+external_url: "https://doi.org/10.1523/ENEURO.0170-17.2017"
 pdf: ""
 ---
