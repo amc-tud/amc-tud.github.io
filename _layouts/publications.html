@@ -22,13 +22,11 @@ layout: default
                             <p class="reference-text">
                                 <strong>{{ pub.authors }}</strong> ({{ pub.year }}). 
                                 {% if pub.url %}
-                                {% assign link = pub.url %}
-                                {% unless link contains "://" %}
-                                {% assign link = "https://" | append: pub.url %}
-                                {% endunless %}
-                                <a href="{{ link }}" class="publication-title-link" target="_blank" rel="noopener">{{ pub.title }}</a>
-                                {% else %}
-                                <em>{{ pub.title }}</em>
+                                <a href="{{ pub.url | relative_url }}"
+                                   class="publication-title-link"
+                                   {% if pub.url contains "http" %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                                  {{ pub.title }}
+                                </a>
                                 {% endif %}
                                 <span class="journal-name">{{ pub.journal }}</span>.
                                 {% if pub.highlighted %}
