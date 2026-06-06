@@ -18,3 +18,11 @@ Ruhi is a Postdoctoral Research Associate in the AMC Lab. She previously complet
 
 **Contact:**  
 ruhi.bhanap[at]tu-dresden.de
+
+**Publications:**  
+
+1. [Bhanap, R., Oberauer, K., & Rosner, A. (2025). Investigating retrieval strategies in an associative recognition test in working memory: Evidence from eye movements. *Cognition, 263*, 106199.](https://doi.org/10.1016/j.cognition.2025.106199)
+
+2. Bhanap, R., Bartsch, L. M., & Rosner, A. (2025). Tracking reactivation of location information during memory strategies: insights from eye movements. Journal of Cognition, 8(1), 38.
+
+3. Bhanap, R., Oberauer, K., & Rosner, A. (2026) The Role of Eye Movements and Covert Shifts of Attention in Working and Long-term Memory Retrieval. (accpeted in Psychonomic Bulleting & Review)
