@@ -24,7 +24,7 @@ Simon Ciranka – Postdoc, with ARC/MPIB (2019-2022)
 Casper Kerrén – Postdoc, online (2021)  
 *now Postdoc with Christian Doeller, MPI-CBS*
 
-## RAs and students
+**RAs and students**
 
 Antonia Anouk Bielefeldt, MSc candidate  
 Aleksandra Zinoveva  
