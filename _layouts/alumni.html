@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<style>
+.team-profile {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 30px; /* Space between image and text */
+  margin-top: 200px; /* Increased space below navbar */
+}
+
+  
+
+</style>
+
+<div class="container">
+  <div class="team-profile">
+    <img src="/img/team/{{ page.pic }}.jpg" alt="{{ page.title }}">
+    <div class="info">
+      <h2>{{ page.title }}</h2>
+      <h4>{{ page.role }}</h4>
+      <div class="bio">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
