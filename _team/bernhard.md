@@ -5,6 +5,8 @@ slug: bernhard
 role: PI
 position: PI
 pic: bernhard
+url: /team/bernhard/
+permalink: /team/bernhard/
 ---
 
 **About**  
