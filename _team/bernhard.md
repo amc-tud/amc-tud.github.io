@@ -3,7 +3,7 @@ layout: team_member
 title: "Bernhard Spitzer"
 slug: bernhard
 role: PI
-position: PI
+position: Principle Investigator
 pic: bernhard
 url: /team/bernhard/
 permalink: /team/bernhard/
