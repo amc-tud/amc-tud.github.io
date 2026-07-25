@@ -4,6 +4,14 @@ title: Alumni
 permalink: /alumni/
 ---
 
+<style>
+.team-profile {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 30px; /* Space between image and text */
+  margin-top: 200px; /* Increased space below navbar */
+}
+
 *Alumni*
 
 Marcus Möschl – Postdoc, TUD (2025-2026)
