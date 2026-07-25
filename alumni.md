@@ -4,8 +4,6 @@ title: Alumni
 permalink: /alumni/
 ---
 
-## Alumni
-
 Marcus Möschl – Postdoc, TUD (2025-2026)  
 now researcher at Palucca University of Dance, Dresden, Germany
 
