@@ -11,13 +11,13 @@
     
     <!-- PI Section -->
     <div class="row" style="margin-bottom: 40px;">
-      {% assign pi = site.people | where: "role", "PI" | first %}
+      {% assign pi = site.team | where: "role", "PI" | first %}
       {% if pi %}
       <div class="col-sm-12 text-center">
         <div class="team-member" style="max-width:340px;margin:0 auto;">
           <img src="img/team/{{ pi.pic }}.jpg" class="img-oval" alt="">
           <h4>
-           <a href="{{ '/team/' | append: pi.slug | append: '/' | relative_url }}">{{ pi.name }}</a>
+            <a href="{{ pi.url }}">{{ pi.title }}</a>
           </h4>
           <p class="text-muted">{{ pi.position }}</p>
           <ul class="list-inline social-buttons">
