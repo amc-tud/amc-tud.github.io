@@ -1,3 +1,4 @@
+---
 layout: alumi
 title: Alumni
 permalink: /alumni/
