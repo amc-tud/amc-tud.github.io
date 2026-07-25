@@ -36,7 +36,7 @@
     
     <!-- Combined non-PI members (randomized client-side) -->
     <div id="team-grid" class="row text-center">
-      {% assign non_pi = site.team | where_exp: "item", "item.role != 'PI'" %}
+      {% assign non_pi = site.team | where_exp: "item", "item.position != 'PI'" %}
       {% for member in non_pi %}
       <div class="col-sm-5ths team-card" data-name="{{ member.title }}">
         <div class="team-member">
