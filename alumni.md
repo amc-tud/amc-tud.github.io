@@ -1,5 +1,5 @@
 ---
-layout: alumi
+layout: alumni
 title: Alumni
 permalink: /alumni/
 ---
