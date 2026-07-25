@@ -1,3 +1,9 @@
+---
+layout: page
+title: Alumni
+permalink: /alumni/
+---
+
 *Alumni*
 
 Marcus Möschl – Postdoc, TUD (2025-2026)
