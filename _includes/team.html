@@ -38,7 +38,7 @@
     <div id="team-grid" class="row text-center">
       {% assign non_pi = site.team | where_exp: "item", "item.position != 'PI'" %}
       {% for member in non_pi %}
-      <div class="col-sm-5ths team-card" data-name="{{ member.title }}">
+      <div class="col-sm-3 team-card" data-name="{{ member.title }}">
         <div class="team-member">
           <img src="img/team/{{ member.pic }}.jpg" class="img-oval" alt="{{ member.title }}">
           <h4>
