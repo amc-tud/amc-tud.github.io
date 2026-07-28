@@ -2,7 +2,7 @@
 layout: team_member
 title: "Bernhard Spitzer"
 slug: bernhard
-role: Supreme Leader
+role: PI
 position: PI
 pic: bernhard
 url: /team/bernhard/
