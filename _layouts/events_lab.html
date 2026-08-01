@@ -1,44 +1,154 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
 
-    <title>{{ page.title }} | {{ site.title }}</title>
+.team-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 150px;
+}
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/events.css' | relative_url }}">
-</head>
+.team-profile img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
 
-<body>
-
-    {% include header.html %}
-
-    <main class="events-container">
-
-        <header class="events-header">
-            <h1>{{ page.title }}</h1>
-            <p class="events-intro">
-                News, talks, retreats, and activities from the AMC Group.
-            </p>
-        </header>
+.team-profile .info {
+  max-width: 600px;
+}
 
 
-        <div class="events-content">
+/* ==========================
+   Lab Events Page
+   ========================== */
 
-            {{ content }}
+.events-page {
+  max-width: 1000px;
+  margin: 150px auto 80px;
+  padding: 0 30px;
+}
 
-        </div>
 
-    </main>
+.event-section {
+  background: #ffffff;
+  padding: 40px;
+  margin-bottom: 45px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
 
 
-    {% include footer.html %}
+.event-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
 
-</body>
 
-</html>
+.event-date {
+  display: block;
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+
+.event-description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+
+/* Speaker section */
+
+.speaker-list {
+  margin-top: 35px;
+}
+
+
+.speaker {
+  background: #fafafa;
+  border-left: 4px solid #555;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 0 12px 12px 0;
+}
+
+
+.speaker h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+
+
+.speaker .institution {
+  color: #777;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+
+.speaker p {
+  line-height: 1.6;
+}
+
+
+/* Page title */
+
+.events-page:before {
+  content: "Lab Life";
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: #222;
+}
+
+
+/* Mobile view */
+
+@media (max-width: 700px) {
+
+  .events-page {
+    margin-top: 100px;
+    padding: 0 15px;
+  }
+
+
+  .event-section {
+    padding: 25px;
+  }
+
+
+  .event-section h2 {
+    font-size: 1.5rem;
+  }
+
+
+  .speaker {
+    padding: 15px;
+  }
+
+}
+
+</style>
+
+
+<div class="container">
+
+  <div class="events-page">
+
+    {{ content }}
+
+  </div>
+
+</div>
