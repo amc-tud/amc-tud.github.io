@@ -1,71 +1,44 @@
 ---
 layout: default
 ---
-.events-page {
-    max-width: 900px;
-    margin: 120px auto 80px;
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/events.css' | relative_url }}">
+</head>
+
+<body>
+
+    {% include header.html %}
+
+    <main class="events-container">
+
+        <header class="events-header">
+            <h1>{{ page.title }}</h1>
+            <p class="events-intro">
+                News, talks, retreats, and activities from the AMC Group.
+            </p>
+        </header>
 
 
-.event-section {
-    margin-bottom: 70px;
-}
+        <div class="events-content">
+
+            {{ content }}
+
+        </div>
+
+    </main>
 
 
-.event-section h2 {
-    font-size: 30px;
-    font-weight: 500;
-    color: #2c3e50;
-    margin-bottom: 8px;
-}
+    {% include footer.html %}
 
+</body>
 
-.event-date {
-    font-size: 16px;
-    color: #777;
-    margin-bottom: 30px;
-}
-
-
-.event-description {
-    font-size: 17px;
-    line-height: 1.8;
-    color: #444;
-    max-width: 850px;
-}
-
-
-.speaker-list {
-    margin-top: 35px;
-}
-
-
-.speaker {
-    padding: 18px 0;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-
-.speaker:last-child {
-    border-bottom: none;
-}
-
-
-.speaker h3 {
-    margin: 0 0 5px;
-    font-size: 19px;
-    font-weight: 600;
-    color: #2c3e50;
-}
-
-
-.speaker p {
-    margin: 6px 0;
-    line-height: 1.6;
-}
-
-
-.institution {
-    color: #666;
-    font-style: italic;
-}
+</html>
