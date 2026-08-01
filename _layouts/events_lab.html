@@ -26,78 +26,13 @@ layout: default
    Lab Events Page
    ========================== */
 
+<style>
+
 .events-page {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 150px auto 80px;
-  padding: 0 30px;
-}
-
-
-.event-section {
-  background: #ffffff;
-  padding: 40px;
-  margin-bottom: 45px;
-  border-radius: 18px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-}
-
-
-.event-section h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #222;
-}
-
-
-.event-date {
-  display: block;
-  font-size: 0.95rem;
-  color: #777;
-  margin-bottom: 25px;
-  font-weight: 500;
-}
-
-
-.event-description {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: #444;
-}
-
-
-/* Speaker section */
-
-.speaker-list {
-  margin-top: 35px;
-}
-
-
-.speaker {
-  background: #fafafa;
-  border-left: 4px solid #555;
-  padding: 20px 25px;
-  margin-bottom: 25px;
-  border-radius: 0 12px 12px 0;
-}
-
-
-.speaker h3 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: 1.25rem;
-}
-
-
-.speaker .institution {
-  color: #777;
-  font-style: italic;
-  margin-bottom: 12px;
-}
-
-
-.speaker p {
-  line-height: 1.6;
+  padding: 0 40px;
+  font-size: 1.15rem;
 }
 
 
@@ -107,48 +42,103 @@ layout: default
   content: "Lab Life";
   display: block;
   text-align: center;
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 60px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 70px;
   color: #222;
 }
 
 
-/* Mobile view */
+/* Event cards */
+
+.event-section {
+  background: #ffffff;
+  padding: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+}
+
+
+.event-section h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+
+.event-date {
+  display: block;
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+
+.event-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+
+/* Speaker entries */
+
+.speaker-list {
+  margin-top: 45px;
+}
+
+
+.speaker {
+  background: #fafafa;
+  border-left: 5px solid #555;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 0 15px 15px 0;
+}
+
+
+.speaker h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+
+.speaker .institution {
+  font-size: 1.15rem;
+  color: #666;
+  font-style: italic;
+}
+
+
+.speaker p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+
+/* Mobile */
 
 @media (max-width: 700px) {
 
   .events-page {
-    margin-top: 100px;
-    padding: 0 15px;
+    padding: 0 20px;
   }
-
 
   .event-section {
-    padding: 25px;
+    padding: 30px;
   }
-
 
   .event-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
-
-  .speaker {
-    padding: 15px;
+  .event-description,
+  .speaker p {
+    font-size: 1.05rem;
   }
 
 }
 
 </style>
-
-
-<div class="container">
-
-  <div class="events-page">
-
-    {{ content }}
-
-  </div>
-
-</div>
