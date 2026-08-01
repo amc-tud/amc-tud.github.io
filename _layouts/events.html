@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<style>
+.team-profile {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 30px; /* Space between image and text */
+  margin-top: 150px; /* Increased space below navbar */
+}
+
+.team-profile img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.team-profile .info {
+  max-width: 600px;
+}
+
+  
+</style>
+
+<div class="container">
+  <div class="team-profile">
+    <div class="info">
+      <h2>{{ page.title }}</h2>
+      <h4>{{ page.role }}</h4>
+      <div class="bio">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
