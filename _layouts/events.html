@@ -1,35 +1,74 @@
 ---
 layout: default
 ---
+
 <style>
-.team-profile {
-  display: flex;
-  align-items: flex-start; /* Align items at the top */
-  gap: 30px; /* Space between image and text */
-  margin-top: 150px; /* Increased space below navbar */
+.events-page {
+  margin-top: 120px;
+  margin-bottom: 80px;
 }
 
-.team-profile img {
-  max-width: 200px;
-  height: auto;
-  border-radius: 10px; /* Rounded corners */
+.events-page h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 50px;
 }
 
-.team-profile .info {
-  max-width: 600px;
+.event-card {
+  background: #ffffff;
+  padding: 35px;
+  margin-bottom: 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
-  
+.event-card h2 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.event-date {
+  color: #777;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.event-card p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.speaker {
+  background: #f5f7f9;
+  border-left: 4px solid #3498db;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.speaker h3 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+.speaker p {
+  margin: 5px 0;
+}
+
 </style>
 
+
 <div class="container">
-  <div class="team-profile">
-    <div class="info">
-      <h2>{{ page.title }}</h2>
-      <h4>{{ page.role }}</h4>
-      <div class="bio">
-        {{ content }}
-      </div>
+
+  <div class="events-page">
+
+    <h1>{{ page.title }}</h1>
+
+    <div class="events-content">
+      {{ content }}
     </div>
+
   </div>
+
 </div>
