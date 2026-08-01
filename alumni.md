@@ -19,7 +19,7 @@ Graduate RA, MPS fellow (2022-2023).
 *Now PhD researcher with Peter Dayan, Max Planck School of Cognition*
 
 ### Juan Linde-Domingo 
-Postdoc (2018-2023). 
+Postdoc (2018-2023).   
 *Now Ramón y Cajal fellow, University of Granada, Spain* 
 
 ### Verena Clarmann v. Clarenau 
