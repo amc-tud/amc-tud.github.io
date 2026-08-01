@@ -910,3 +910,134 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* ==========================
+   Lab Life Homepage Cards
+   ========================== */
+
+.lablife-section {
+    padding: 90px 0;
+}
+
+
+.lablife-section .section-heading {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.lablife-section .section-subheading {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+.lablife-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.lab-event-card {
+
+    background: white;
+    padding: 35px 30px;
+    height: 100%;
+
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+    transition: all 0.25s ease;
+}
+
+
+.lab-event-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+
+}
+
+
+.lab-event-card .event-date {
+
+    display: inline-block;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #777;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+
+.lab-event-card h4 {
+
+    font-size: 22px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.lab-event-card h4 a {
+
+    color: #222;
+
+    text-decoration: none;
+
+}
+
+
+.lab-event-card h4 a:hover {
+
+    color: #337ab7;
+
+}
+
+
+.lab-event-card p {
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    color: #555;
+
+}
+
+
+.read-more {
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    font-weight: 600;
+
+    color: #337ab7;
+
+}
+
+
+@media(max-width:768px){
+
+    .lablife-cards {
+        display:block;
+    }
+
+    .lab-event-card {
+        margin-bottom:30px;
+    }
+
+}
