@@ -46,6 +46,13 @@
                     </li>
                     <li>
                         {% if page.layout == 'home' %}
+                            <a class="page-scroll" href="#lablife">Lab Life</a>
+                        {% else %}
+                            <a href="/#lablife">Lab Life</a>
+                        {% endif %}
+                    </li>
+                    <li>
+                        {% if page.layout == 'home' %}
                             <a class="page-scroll" href="#contact">Careers/Contact</a>
                         {% else %}
                             <a href="/#contact">Careers/Contact</a>
