@@ -7,15 +7,15 @@ permalink: /alumni/
 ## Researchers
 
 ### Marcus Möschl
-Postdoc, TUD (2025-2026). 
+Postdoc, TUD (2025-2026).  
 *Now researcher at Palucca University of Dance, Dresden, Germany*
 
 ### Stefan Appelhoff
-PhD researcher and Postdoc (2018-2024).   
+PhD researcher and Postdoc (2018-2024).    
 *Now Lead Biosignal Data Analyst, Zander Labs, Berlin, Germany*
 
 ### Thomas Graham
-Graduate RA, MPS fellow (2022-2023). 
+Graduate RA, MPS fellow (2022-2023).   
 *Now PhD researcher with Peter Dayan, Max Planck School of Cognition*
 
 ### Juan Linde-Domingo 
