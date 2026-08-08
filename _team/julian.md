@@ -2,8 +2,8 @@
 layout: team_member
 title: "Julian Sandbrink"
 slug: julian
-role: MD-PhD Student
-position: MD-PhD Student
+role: MD-PhD Researcher
+position: MD-PhD Researcher
 pic: julian
 ---
 
