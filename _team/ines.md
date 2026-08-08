@@ -3,7 +3,7 @@ layout: team_member
 title: "Ines Pont Sanchis"
 slug: ines
 role: PhD
-position: PhD Student
+position: PhD Researcher
 pic: ines
 ---
 
