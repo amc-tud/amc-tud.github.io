@@ -3,7 +3,7 @@ layout: team_member
 title: "Dilara Zorbek"
 slug: dilara
 role: PhD
-position: PhD Student
+position: PhD Researcher
 pic: dilara
 ---
 
