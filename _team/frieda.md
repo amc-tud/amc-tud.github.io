@@ -3,7 +3,7 @@ layout: team_member
 title: "Frieda Born"
 slug: freida
 role: PhD
-position: PhD Student
+position: PhD Researcher
 pic: frieda
 ---
 **Research Interests:** 
