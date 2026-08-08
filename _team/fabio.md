@@ -3,7 +3,7 @@ layout: team_member
 title: "Fabio Bauer"
 slug: fabio
 role: PhD
-position: PhD Student
+position: PhD Researcher
 pic: fabio
 ---
 
