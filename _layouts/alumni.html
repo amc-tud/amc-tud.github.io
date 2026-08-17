@@ -3,97 +3,182 @@ layout: default
 ---
 
 <style>
-.alumni-page {
+.thesis-page {
   max-width: 1000px;
   margin: 120px auto 80px;
   padding: 0 25px;
 }
 
-.alumni-header {
+.thesis-header {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.alumni-header h1 {
+.thesis-header h2 {
   font-size: 3rem;
   font-weight: 700;
 }
 
-.alumni-content h2 {
+.thesis-header p {
+  color: #555;
+  margin-top: 5px;
+}
+
+
+/* Section headings: Bachelor / Master */
+.thesis-content h2 {
   margin-top: 50px;
   font-size: 1.8rem;
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
 
-.alumni-content h3 {
+
+/* Thesis topic titles */
+.thesis-content h3 {
   margin-bottom: 5px;
   font-size: 1.8rem;
 }
 
-.alumni-content h3::before {
+.thesis-content h3::before {
   content: "";
 }
 
-.alumni-content p {
+
+/* General paragraphs */
+.thesis-content p {
   margin-top: 5px;
   color: #555;
+  line-height: 1.7;
 }
 
-.alumni-content em {
+
+/* Supervisor information */
+.thesis-content h3 + p {
+  background: white;
+  padding: 0 25px 20px;
+  margin-bottom: 0;
   color: #777;
 }
 
-.alumni-content ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  gap: 12px;
-  padding: 0;
-  list-style: none;
+.thesis-content h3 + p strong {
+  color: #444;
 }
 
-.alumni-content li {
-  background: #f8f9fb;
-  padding: 15px 18px;
-  border-radius: 12px;
-  transition: transform .2s ease, box-shadow .2s ease;
+.thesis-content h3 + p a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.alumni-content li:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+.thesis-content h3 + p a:hover {
+  text-decoration: underline;
 }
 
-.alumni-content h3 {
+
+/* Thesis description */
+.thesis-content h3 + p + p {
+  background: white;
+  padding: 0 25px 20px;
+  margin-bottom: 0;
+  border-radius: 0 0 16px 16px;
+  color: #555;
+  line-height: 1.7;
+}
+
+
+/* Thesis card */
+.thesis-content h3 {
   background: white;
   padding: 20px 25px 5px;
   margin-top: 25px;
   border-radius: 16px 16px 0 0;
 }
 
-.alumni-content h3 + p {
+
+/* Additional paragraphs belonging to a thesis */
+.thesis-content h3 + p + p + p {
   background: white;
   padding: 0 25px 20px;
+  margin-top: 0;
   margin-bottom: 0;
+  color: #555;
+  line-height: 1.7;
 }
 
-.alumni-content h3 + p + p {
-  background: white;
-  padding: 0 25px 20px;
+.thesis-content h3 + p + p + p:last-child {
   border-radius: 0 0 16px 16px;
 }
 
+
+/* Lists */
+.thesis-content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.thesis-content li {
+  background: #f8f9fb;
+  padding: 15px 18px;
+  border-radius: 12px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.thesis-content li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+
+/* Emphasis */
+.thesis-content em {
+  color: #777;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .thesis-page {
+    margin: 80px auto 60px;
+    padding: 0 18px;
+  }
+
+  .thesis-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .thesis-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .thesis-content h3 {
+    font-size: 1.4rem;
+    padding: 18px 20px 5px;
+  }
+
+  .thesis-content h3 + p,
+  .thesis-content h3 + p + p,
+  .thesis-content h3 + p + p + p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 </style>
 
 
-<div class="alumni-page">
+<div class="thesis-page">
 
-  <div class="alumni-header">
+  <div class="thesis-header">
     <h2>{{ page.title }}</h2>
-    <p>Former members of the lab and their current positions</p>
+    <p>AMC Thesis Projects @ TUD</p>
+    <p>Chair of Biopsychology, TU Dresden</p>
+    <p>Last updated: 2025/11/06</p>
   </div>
 
-  <div class="alumni-content">
+  <div class="thesis-content">
     {{ content }}
   </div>
 
