@@ -37,7 +37,7 @@ Postdoc, online (2021).
 
 ## RAs and Students
 
-- Antonia Anouk Bielefeldt: MSc candidate
+- Antonia Anouk Bielefeldt, MSc candidate
 - Aleksandra Zinoveva
 - Tara Beilner
 - Anna Faschinger
