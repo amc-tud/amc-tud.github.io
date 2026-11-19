@@ -37,16 +37,16 @@ Postdoc, online (2021)
 
 ## RAs and Students
 
-- Jiani Ge, MSc candidate
-- Antonia Anouk Bielefeldt, MSc candidate
-- Aleksandra Zinoveva
-- Tara Beilner
+- Jiani Ge, MSc candidate *now PhD candidate at JLU Gießen*
+- Antonia Anouk Bielefeldt, MSc candidate *now PhD candidate at TU Berlin*
+- Aleksandra Zinoveva *now PhD candidate at MPIB Berlin*
+- Tara Beilner *now PhD candidate at LMU Munich*
 - Anna Faschinger
-- Josefine Hebisch
+- Josefine Hebisch *PhD at UKE Hamburg*
 - Gabriele Inciuraite  
 - Yoonsang Lee  
-- Ivan Padezhki, BSc candidate  
+- Ivan Padezhki, BSc candidate *now PhD candidate at University of Granada* 
 - Clara Wicharz, BSc candidate  
 - Zhiqi Kang  
-- Agnessa Karapetian  
+- Agnessa Karapetian *PhD at FU Berlin*  
 - Leonhardt Waschke (FU Berlin)
