@@ -49,4 +49,4 @@ Postdoc, online (2021)
 - Clara Wicharz, BSc candidate  
 - Zhiqi Kang  
 - Agnessa Karapetian *PhD at FU Berlin*  
-- Leonhardt Waschke (FU Berlin)
+- Leonhardt Waschke (FU Berlin) *PhD at Uni Lübeck, Postdoc at MPIB Berlin* 
